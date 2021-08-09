@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 /**
  * @author Hyeon Ae Jang
  * @email aeae_1@sookmyung.ac.kr
@@ -39,10 +39,12 @@ fun main(){
 //
 //    human.eatingCake()
 
-    val mom = Human("Kuri", 52)
+//    val mom = Human("Kuri", 52)
 
 //    println("this human's name is ${human.name}")
 
     val korean = Korean()
     korean.singASong()
+
 }
+ */

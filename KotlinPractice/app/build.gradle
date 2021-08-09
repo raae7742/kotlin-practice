@@ -34,6 +34,8 @@ android {
 
 dependencies {
 
+    def anko_version = '0.10.8'
+    implementation "org.jetbrains.anko:anko:$anko_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -44,7 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    def nav_version = "2.3.5"
+    def nav_version = "2.3.0-alpha04"
 
     // Kotlin
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"

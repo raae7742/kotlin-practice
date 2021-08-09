@@ -14,11 +14,12 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="16dp"
             android:gravity="center"
             android:textColor="@color/white"
             android:fontFamily="sans-serif-black"
-            android:textSize="20sp" android:id="@+id/textView"/>
+            android:textSize="20sp"
+            android:id="@+id/textView" />
 
     <ImageView
             android:layout_width="260dp"
@@ -32,8 +33,10 @@
     <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/next" app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/next"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.553" app:layout_constraintTop_toBottomOf="@+id/imageView"
-            android:layout_marginTop="84dp"/>
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:layout_marginTop="44dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 /**
  * @author Hyeon Ae Jang
  * @email aeae_1@sookmyung.ac.kr
@@ -67,5 +67,4 @@ val calculateGrade : (Int) -> String = {
 fun invokeLamda(lamda : (Double) -> Boolean) : Boolean {
     return lamda(5.2343)
 }
-
-//
+ */

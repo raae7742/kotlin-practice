@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 /**
  * @author Hyeon Ae Jang
  * @email aeae_1@sookmyung.ac.kr
@@ -27,3 +27,5 @@ fun main() {
     val bookId = Book.BookFactory.getId()
     println("${book.id} ${book.name}")
 }
+
+ */

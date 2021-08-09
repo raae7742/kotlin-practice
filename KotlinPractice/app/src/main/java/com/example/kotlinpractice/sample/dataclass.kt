@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 /**
  * @author Hyeon Ae Jang
  * @email aeae_1@sookmyung.ac.kr
@@ -19,3 +19,5 @@ fun main(){
     println(ticketA)
     println(ticketB)
 }
+
+ */

@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 /** @author Hyeon Ae Jang ...*/
 fun main(){
     //3. String Template
@@ -151,5 +151,4 @@ fun ignoreNulls(str : String?){
         println("my email is ${email}")
     }
 }
-
-
+*/

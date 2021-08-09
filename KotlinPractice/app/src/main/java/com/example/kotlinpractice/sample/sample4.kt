@@ -1,5 +1,5 @@
 package com.example.kotlinpractice
-
+/*
 // Singleton Pattern - Object
 object CarFactory {
     val cars = mutableListOf<Car>()
@@ -22,3 +22,5 @@ fun main() {
     println(CarFactory.cars.size.toString())
 
 }
+
+ */

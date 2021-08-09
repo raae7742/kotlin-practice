@@ -8,16 +8,17 @@
         tools:context=".fragment.MainFragment">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/main_title"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="124dp"
-        android:textColor="@color/white"
-        android:fontFamily="sans-serif-black"
-        android:textSize="32sp" android:id="@+id/textView"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="48dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textSize="32sp"
+            android:id="@+id/textView" />
 
     <ImageView
             android:layout_width="260dp"
@@ -29,6 +30,7 @@
             android:layout_marginTop="60dp" android:id="@+id/imageView"/>
 
     <ImageView
+            android:id="@+id/btn_next"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/next" app:layout_constraintEnd_toEndOf="parent"
